@@ -16,7 +16,6 @@ def populate():
     add_page(cat=python_cat,
         title="Official Python Tutorial",
         url="http://docs.python.org/2/tutorial/",
-        views=64
         )
 
     add_page(cat=python_cat,
