@@ -18,3 +18,12 @@ class Page(models.Model):
 
     def __unicode__(self):
         return self.title
+
+
+class User(models.Model):
+    first_name = models.CharField(max_length=40, blank=False)
+    last_name = models.CharField(max_length=40)
+    email = models.EmailField(max_length=100)
+
+    def __unicode__(self):
+        return self.first_name + " " + self.last_name
