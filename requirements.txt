@@ -23,7 +23,7 @@ PAM==0.4.2
 PdbSublimeTextSupport==0.2
 pep8==1.6.2
 pexpect==3.1
-Pillow==2.3.0
+Pillow==6.2.0
 piston-mini-client==0.7.5
 psycopg2==2.4.5
 pycrypto==2.6.1
